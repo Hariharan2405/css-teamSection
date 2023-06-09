@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col{
+	width:25%;
+	padding:12px;
+	text-align:center;
+	margin:auto;
+}
+.card{
+	box-shadow:0 0 10px #ccc;
+}
+img{
+	width:100%;
+}
+p{
+	padding-top:10px;
+	color:#ccc;
+	font-family: 'Raleway', sans-serif;
+	font-size:12px;
+}
+h2{
+	padding:12px;
+	font-size:35px;
+	font-weight:1000;
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+h4{
+	padding-left:12px;
+	color:#808080;
+	position:relative;
+}
+h4::after{
+	content:" ";
+	position:absolute;
+	height:2px;
+	width:150px;
+	background-color:#ffc34d;
+	text-align:center;
+	top:7px;
+	margin-left:12px;
+}
+.text{
+	padding:25px 12px;
+	text-align:left;
+}
